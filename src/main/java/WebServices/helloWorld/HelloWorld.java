@@ -20,6 +20,10 @@ public class HelloWorld {
 	public String helloWorld()  {
 		return "Hello World";
 	}
+	@GetMapping("/hello-world/kavish")
+	public String helloWorldKavish()  {
+		return "Hello Kavish";
+	}
 	
 	
 	@GetMapping("/hello-world-bean")
